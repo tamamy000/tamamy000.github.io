@@ -6802,6 +6802,8 @@ button.close {
 #wrapper {
   padding-left: 250px;
   transition: all 0.4s ease 0s;
+  top:320px;
+  left:20px;
 }
 
 #sidebar-wrapper {
@@ -6833,7 +6835,6 @@ button.close {
 
     #wrapper {
       padding-left: 0;
-      top:320px;
     }
 
     #sidebar-wrapper {
