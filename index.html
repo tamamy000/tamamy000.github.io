@@ -1,99 +1,100 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-<style>
-body {
-	background: #000;
-	font-family: verdana;
-	font-size: 9pt;
-	line-height: 15pt;
-	color: #565656;
-}
-#text {
-	left: 400px;
-	width: 50%;
-	height: 100%;
-	top: 50px;
-	z-index: 3;
-	overflow: hidden;
-}
-#nav {
-	top: 330px;
-	left: 70px;
-	z-index: 4;
-}
-#logo {
-	top:50px;
-	left:50px;
-	z-index:10;
-}
-.nav {
-	padding: 5px;
-	color: #fff;
-	background-color: #da540f;
-	text-decoration: none;
-}
-.nav:hover {
-	background-color: #d97948;
-}
-table, .sf {
-	display: none;
-}
-</style>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Simple Sidebar - Start Bootstrap Template</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/simple-sidebar.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
 </head>
-<div id="logo" style="position: absolute;">
-	<img src="http://i.imgur.com/ZjK7wit.png">
-</div>
-<div id="nav" style="position: absolute;">
-	<a href="#begin" class="nav">home</a>
-	<a href="#bio" class="nav">resume</a>
-	<a href="#story" class="nav">portfolio</a>
-	<a href="#art" class="nav">contact</a>
-	<a href="#end" class="nav">end</a>
-</div>
 
+<body>
 
+    <div id="wrapper">
 
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                    <a href="#">
+                        Start Bootstrap
+                    </a>
+                </li>
+                <li>
+                    <a href="#">Dashboard</a>
+                </li>
+                <li>
+                    <a href="#">Shortcuts</a>
+                </li>
+                <li>
+                    <a href="#">Overview</a>
+                </li>
+                <li>
+                    <a href="#">Events</a>
+                </li>
+                <li>
+                    <a href="#">About</a>
+                </li>
+                <li>
+                    <a href="#">Services</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
 
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h1>Simple Sidebar</h1>
+                        <p>This template has a responsive menu toggling system. The menu will appear collapsed on smaller screens, and will appear non-collapsed on larger screens. When toggled using the button below, the menu will appear/disappear. On small screens, the page content will be pushed off canvas.</p>
+                        <p>Make sure to keep all page content within the <code>#page-content-wrapper</code>.</p>
+                        <a href="#menu-toggle" class="btn btn-default" id="menu-toggle">Toggle Menu</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /#page-content-wrapper -->
 
+    </div>
+    <!-- /#wrapper -->
 
-<div id="text" style="position: absolute;">
-<a name="begin"></a>
-<div style="overflow: auto; height: 100%;">
-	<p style="align:center;"><img src="http://i.imgur.com/MJKyB7O.jpg"></p>
-<p><b>Hello, my name is Amy Tam</b> and I am currently a second year industrial design student at DAAP. I was born and raised
-in central Indiana where I grew up with a creative mindset. Thankfully, I graduated from coloring on the walls to 3D modeling
-my ideas. Industrial design became an outlet for me to create a more beautiful world.</p>
-</div>
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
 
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
 
+    <!-- Menu Toggle Script -->
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    </script>
 
+</body>
 
-
-<a name="bio"></a>
-<div style="overflow: auto; height: 100%;">
-things
-</div>
-
-
-
-
-
-<a name="story"></a>
-<div style="overflow: auto; height: 100%;">
-<p><img src="http://i.imgur.com/sZh9Kk7.png"></p>
-<p><img src="http://i.imgur.com/xI2pcvm.png"></p>
-<p><img src="http://i.imgur.com/Bm5brVt.png"></p>
-</div>
-
-
-
-
-
-<a name="art"></a>
-<div style="overflow: auto; height: 100%;">
-heheh
-</div>
-<a name="end"></a>
-<div style="overflow: auto; height: 100%;">
-asdfsasdf
-</div>
+</html>
