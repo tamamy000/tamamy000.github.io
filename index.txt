@@ -1,281 +1,0 @@
-<html>
- 
-<head>
- 
-<style>
- 
-body {
- 
-	background: #000;
- 
-	font-family: verdana;
- 
-	font-size: 9pt;
- 
-	color: #cdcdcd;
- 
-}
- 
-#text {
- 
-	left: 400px;
- 
-	width: 50%;
- 
-	height: 100%;
- 
-	top: 80px;
- 
-	z-index: 3;
- 
-	overflow: hidden;
- 
-}
- 
-#nav {
- 
-	top: 330px;
- 
-	left: 70px;
- 
-	z-index: 4;
- 
-}
- 
-#logo {
- 
-	top:50px;
- 
-	left:50px;
- 
-	z-index:10;
- 
-}
- 
-.nav {
- 
-	padding: 5px;
- 
-	color: #fff;
- 
-	background-color: #da540f;
- 
-	text-decoration: none;
- 
-}
- 
-.nav:hover {
- 
-	background-color: #d97948;
- 
-}
- 
-table, .sf {
- 
-	display: none;
- 
-}
- 
-</style>
- 
-</head>
- 
- 
- 
- 
- 
-<div id="logo" style="position: absolute;">
- 
-	<img src="http://i.imgur.com/ZjK7wit.png">
- 
-</div>
- 
-<div id="nav" style="position: absolute;">
- 
-	<a href="#begin" class="nav">home</a>
- 
-	<a href="#bio" class="nav">resume</a>
- 
-	<a href="#story" class="nav">portfolio</a>
- 
-	<a href="#art" class="nav">contact</a>
- 
-	<a href="#end" class="nav">end</a>
- 
-</div>
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-<div id="text" style="position: absolute;">
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-<a name="begin"></a>
- 
-<div style="overflow: auto; height: 100%;">
- 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam hendrerit mauris a nisl porta vulputate. Vestibulum vestibulum elementum tellus at scelerisque. Vivamus volutpat fringilla vestibulum. Praesent ac lacus nec dolor venenatis auctor a vel dolor. Aenean imperdiet hendrerit mi, ut pretium justo vehicula a. Vivamus facilisis iaculis libero laoreet dictum. Phasellus facilisis odio dolor, vel molestie lectus fermentum at. Fusce eu odio aliquam arcu dignissim blandit. Donec vitae turpis vel dolor posuere bibendum. Cras volutpat tortor ac nisl blandit convallis. Phasellus et orci vitae ante finibus fermentum a vel ex. Mauris at elit nisi.
- 
- 
- 
-Maecenas lacinia augue nec magna ultrices blandit. Nulla velit magna, dapibus interdum dui sed, molestie ultrices nibh. Curabitur tempor facilisis sodales. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec auctor lectus eget gravida ornare. Integer pulvinar erat vel finibus molestie. Maecenas eros mauris, egestas eu facilisis sit amet, faucibus in enim. Nullam sit amet ligula quis nunc faucibus pulvinar. Nullam dapibus magna risus, ut venenatis magna lobortis nec. Sed varius turpis leo. Nunc dui quam, semper nec purus ultricies, elementum tincidunt orci. Vestibulum fringilla purus in velit euismod, ac vehicula felis ultricies. Donec scelerisque velit scelerisque, sodales nunc id, euismod turpis. Aenean sed lorem eget eros blandit dignissim.
- 
- 
- 
-Phasellus sed sapien quam. Nulla felis tortor, pharetra eleifend dolor id, imperdiet sodales sem. Duis suscipit ut mi ut scelerisque. Vestibulum non tellus quis odio interdum consectetur. Suspendisse vestibulum libero sit amet odio porttitor, eu luctus nisl dignissim. Mauris eget orci placerat, molestie libero ut, tincidunt nulla. Quisque venenatis id odio non mollis. Sed quis nunc tristique, luctus ligula eget, venenatis ipsum. Phasellus id ex eget ipsum luctus mattis suscipit quis urna. In rhoncus nulla elit, et tristique lacus consectetur eget. Donec eu dolor a dui dignissim finibus sed sit amet ante.
- 
- 
- 
-Quisque magna lorem, mattis vel velit eu, semper porttitor lectus. Proin vitae luctus tellus. Quisque est sem, aliquet faucibus facilisis at, bibendum nec augue. Sed vulputate nibh non bibendum rutrum. Curabitur rutrum sit amet magna non lobortis. Donec placerat arcu a orci scelerisque, quis molestie dui consectetur. Pellentesque aliquam dictum suscipit. Pellentesque ante ante, facilisis at felis ac, varius dictum mi. Pellentesque porttitor sapien eget sodales commodo. Curabitur pellentesque diam lectus, sed facilisis nulla placerat vel. Sed convallis elementum nulla, at pretium sapien. Vivamus vehicula lacus non erat vulputate, sed euismod dolor varius.
- 
- 
- 
-In et nulla sem. Maecenas auctor elit non mauris aliquam, id hendrerit nisi bibendum. Fusce turpis metus, pretium sit amet hendrerit non, sodales at erat. Duis congue, augue sed euismod finibus, leo odio tempus metus, id blandit metus velit id lectus. Aliquam finibus ullamcorper velit sagittis malesuada. Cras fringilla facilisis risus congue feugiat. Sed nec lorem rutrum, ornare justo in, tempus mi. Integer auctor est in laoreet scelerisque. Cras hendrerit aliquam tortor, et gravida urna commodo eget. Etiam vel urna nibh. Nam mattis purus et quam auctor, nec dapibus erat rutrum. Nulla facilisi. Sed ornare elit eu mattis vehicula.
- 
-</div>
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-<a name="bio"></a>
- 
-<div style="overflow: auto; height: 100%;">
- 
-things
- 
- 
- 
-</div>
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-<a name="story"></a>
- 
-<div style="overflow: auto; height: 100%;">
- 
-stuff
- 
-</div>
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-<a name="art"></a>
- 
-<div style="overflow: auto; height: 100%;">
- 
-hehehe
- 
-</div>
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-<a name="end"></a>
- 
-<div style="overflow: auto; height: 100%;">
- 
-<p>
- 
-There's a vague promise of revelation<br>
- 
-            from the title<br>
- 
-   and the dark, tree-lined streets, the voice<br>
- 
-            calling from a house<br>
- 
-carrying within it our freedom not to answer.</p>
- 
- 
- 
-<p>Inside another house, a little girl in a pretty dress<br>
- 
-            is falling asleep<br>
- 
-   at her father's desk, turning into<br>
- 
-            Alice in Wonderland<br>
- 
-as her mind falls down the rabbit holes of grammar.
- 
-</p>
- 
-<p>-excerpt from <i>The Alphabet Conspiracy</i> by Rita Mae Reese</p>
- 
-</div>
