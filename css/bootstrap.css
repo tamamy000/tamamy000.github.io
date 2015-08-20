@@ -59,6 +59,7 @@ abbr[title] {
 b,
 strong {
   font-weight: bold;
+  color: #adadad;
 }
 dfn {
   font-style: italic;
@@ -1089,7 +1090,7 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 12px;
   line-height: 1.42857143;
-  color: #adadad;
+  color: #848484;
 }
 input,
 button,
